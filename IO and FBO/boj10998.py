@@ -1,0 +1,5 @@
+X = input()
+x, y = X.split()
+x = int(x)
+y = int(y)
+print(x*y)
