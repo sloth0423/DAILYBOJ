@@ -1,5 +1,0 @@
-X = input()
-x1, y1 = X.split()
-x1 = int(x1)
-y1 = int(y1)
-print(x1-y1)
