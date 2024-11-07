@@ -6,7 +6,7 @@ x = input()
 sum = 0
 for i in range(len(x)):
     if x[i] == 'A' or x[i] == 'B' or x[i] == 'C':
-        sum += 3
+        sum +=3
     if x[i] == 'D' or x[i] == 'E' or x[i] == 'F':
         sum += 4
     if x[i] == 'G' or x[i] == 'H' or x[i] == 'I':
