@@ -11,7 +11,7 @@ while True:
         if testNum % i == 0:
             ls.append(i)
     if testNum == sum(ls):
-        print(f"{testNum} = {' + '.join(map(str,ls))}")
+        print(f"{testNum} = {' + '.join(map(str, ls))}")
         # print(f"{testNum} = {ls[0]}", end = "")
         # for j in range(1, len(ls)):
         #     print(f" + {ls[j]}", end = "")
