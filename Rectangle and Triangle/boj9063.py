@@ -1,15 +1,15 @@
 import sys
 
-input = sys.stdin.readline
+input = lambda: sys.stdin.readline().rstrip()
 
-n = int(input())
+N = int(input())
 
-ls = set()
-ls2 = set()
-for i in range(n):
+ls = []
+ls2 = []
+for i in range(N):
     x, y = map(int,input().split())
-    ls.add(x)
-    ls2.add(y)
+    ls.append(x)
+    ls2.append(y)
 print((max(ls)-min(ls))*(max(ls2)-min(ls2)))
 
 # set으로 만들면 더 빠르고 메모리도 아낄 수 있음
