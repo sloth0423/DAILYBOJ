@@ -1,15 +1,15 @@
-# import sys
-# input = lambda:sys.stdin.readline().rstrip()
-#
-# N = int(input())
-# ls = list(map(int,input().split()))
-# ls2 = sorted(set(ls))
-# n = len(ls2)
-# D = {}
-# for i in range(n):
-#     D[ls2[i]] = i
-# for j in range(N):
-#     print(D[ls[j]], end = " ")
+import sys
+input = lambda:sys.stdin.readline().rstrip()
+
+N = int(input())
+ls = list(map(int,input().split()))
+ls2 = sorted(set(ls))
+n = len(ls2)
+D = {}
+for i in range(n):
+    D[ls2[i]] = i
+for j in range(N):
+    print(D[ls[j]], end = " ")
 
 
 # 아래는 내가 처음에 풀었던 코드이다.
