@@ -1,15 +1,15 @@
-# import sys
-#
-# input = lambda: sys.stdin.readline().rstrip()
-#
-# x = int(input())
-# ls = list()
-# for _ in range(x):
-#     ls.append(int(input()))
-# ls.sort()
-# for i in range(x):
-#     print(ls[i])
-#
+import sys
+
+input = lambda: sys.stdin.readline().rstrip()
+
+x = int(input())
+ls = list()
+for _ in range(x):
+    ls.append(int(input()))
+ls.sort()
+for i in range(x):
+    print(ls[i])
+
 # 문제가 이걸 물어보는게 아니고 정렬 알고리즘을
 # 만들어 보라는 것 같아서 다시 풀어보겠다.
 # 사실 아래 코드도 정렬 알고리즘은 아니다.
